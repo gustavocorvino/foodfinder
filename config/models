@@ -1,21 +1,27 @@
-User
+User json
     ident Text
     password Text Maybe
     UniqueUser ident
     factor Text
     email Text
     deriving Typeable
-Email
+Email json
     email Text
     userId UserId Maybe
     verkey Text Maybe
     UniqueEmail email
-Restaurante
+Restaurante json
     ident Text
     adm Text
     end Text
-Item
+Item json
     nome Text
+    desc Text
+    
+Estoque json
+    ident Text
+    itemId Text
+    quant Text
     
 
  -- By default this file is used in Model.hs (which is imported by Foundation.hs)
