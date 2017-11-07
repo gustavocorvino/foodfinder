@@ -3,4 +3,7 @@
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 
-/ HomeR GET 
+/user     UserInserirR POST
+/user/#UserId/busca BuscaR GET
+/user/#UserId/altera AlteraR PATCH
+/user/#UserId/apagar ApagarR DELETE
